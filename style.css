@@ -42,3 +42,39 @@ p1 {
 ul {
     list-style: none;
 }
+
+/* introduction section */
+
+.introduction {
+    display: flex;
+    background-color: #d3d3d3;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left:24px;
+    gap: 24px;
+    align-items: center;
+}
+
+.intro-pic {
+    width: 60%;
+}
+
+.intro-content {
+    display: flex;
+    flex-direction: column;
+    gap:  16px;
+    /* background-color: #2e2e2e; */
+    width: 30%;
+}
+
+.intro-head-font {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.intro-button {
+    padding-top: 8px ;
+    padding-bottom: 8px;
+    color:#d3d3d3;
+    background-color: #2e2e2e;
+}
