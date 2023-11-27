@@ -212,7 +212,6 @@ a {
     width: 30%;
     background-color: whitesmoke;
     gap:8px;
-    padding-left: 16px;
     padding-bottom: 24px;
     color:#808080;
 }
@@ -220,6 +219,11 @@ a {
 .course-img {
     width: 100%;
 
+}
+
+.course-des {
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .course-head {
