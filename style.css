@@ -130,4 +130,37 @@ ul {
 
     /* info-article */
 
-.infor-article {display: flex;}
+.info-article {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.info-article-contents {
+    display: flex;
+}
+.info-article-contents:hover{
+    background-color: #808080;
+}
+
+.info-article-pic {
+    width: 35%;
+    height: auto;
+    padding: 16px;
+}
+
+.info-article-des {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.info-article-head {
+    font-size: large;
+    font-weight: bold;
+}
+
+.info-article-des {
+    font-size: small
+}
