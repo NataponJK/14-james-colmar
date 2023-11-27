@@ -12,7 +12,7 @@ body {font-family: 'Open Sans', sans-serif;}
 
 .header-nav {
     display: flex;
-    background-color: white;
+    background-color: whitesmoke;
     height: 64px;
     justify-content: space-between;
     padding-left: 24px;
@@ -81,3 +81,31 @@ ul {
 
 /* information section */
 
+.info-main {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left:24px;
+    gap: 24px;
+}
+
+.info-intro {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 32px;
+}
+
+.info-intro-article {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.info-intro-head {
+    font-size: x-large;
+    font-weight: bold;
+
+}
