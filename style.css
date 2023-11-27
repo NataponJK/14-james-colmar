@@ -293,3 +293,16 @@ a {
     flex-direction: column;
     gap:8px;
 }
+
+.footer {
+    display: flex;
+    padding-top: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+}
+.terms-privacy {
+    display: flex;
+    gap: 16px;
+}
