@@ -216,3 +216,33 @@ a {
     font-weight: bold;
     color:#2e2e2e; 
 }
+
+/* thesis section */
+
+.thesis {
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 24px;
+    gap: 32px;
+    text-align: center;
+}
+
+.video-section {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    text-align: start;
+    gap:8px;
+    color: #808080 ;
+}
+.thesis-video {
+    width: 100%;
+    height: auto;
+}
+.video-name {
+    padding-top: 24px;
+    font-weight: bold;
+    color:#2e2e2e;
+}
