@@ -156,12 +156,12 @@ ul {
     gap: 8px;
 }
 
-.info-article-head {
+.article-head {
     font-size: large;
     font-weight: bold;
 }
 
-.info-article-des {
+.article-des {
     font-size: small
 }
 
@@ -224,25 +224,72 @@ a {
     flex-direction: column;
     padding-top: 32px;
     padding-bottom: 32px;
-    padding-left: 24px;
     gap: 32px;
+    background-color: whitesmoke;
     text-align: center;
 }
 
 .video-section {
     display: flex;
+    text-align: start;
+    padding-left: 24px;
+    gap: 24px;
+}
+
+.main-video {
+    display: flex;
     flex-direction: column;
     width: 60%;
-    text-align: start;
-    gap:8px;
-    color: #808080 ;
 }
+
 .thesis-video {
     width: 100%;
     height: auto;
 }
-.video-name {
+
+.main-video-des {
+    display: flex;
+    flex-direction: column;
+    color: #808080;
     padding-top: 24px;
+    gap: 8px;
+}
+
+.video-name {
     font-weight: bold;
     color:#2e2e2e;
+}
+
+.thesis-box {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.sub-thesis-content {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.thesis-content {
+    display: flex;
+    padding: 16px;
+    gap: 16px;
+    align-items: center;
+}
+
+.thesis-content:hover {
+    background-color: #808080;
+}
+
+.thesis-img {
+    width: 35%;
+    height: auto;
+}
+
+.thesis-des {
+    display: flex;
+    flex-direction: column;
+    gap:8px;
 }
