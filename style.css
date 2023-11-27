@@ -85,7 +85,11 @@ ul {
 
 .information {
     display: flex;
+    flex-direction: row;
     background-color: whitesmoke;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left:24px;
     gap: 24px;
 }
 
@@ -93,11 +97,8 @@ ul {
     display: flex;
     flex-direction: column;
     /* background-color: red; */
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left:24px;
-    gap: 24px;
     width: 60%;
+    gap:32px
 }
 
 .info-intro {
