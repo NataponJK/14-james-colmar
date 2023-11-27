@@ -180,10 +180,39 @@ a {
     padding-left: 72px;
     padding-right: 72px;
     background-color: #E5E4E2;
+    gap: 32px;
 }
 
 .section-head {
     color: #2e2e2e;
     font-size: x-large;
     font-weight: bold;
+}
+
+.course-contents {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    gap:32px;
+}
+.course-name {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: whitesmoke;
+    gap:8px;
+    padding-left: 16px;
+    padding-bottom: 24px;
+    color:#808080;
+}
+
+.course-img {
+    width: 100%;
+
+}
+
+.course-head {
+    margin-top: 16px;
+    font-weight: bold;
+    color:#2e2e2e; 
 }
