@@ -81,20 +81,28 @@ ul {
 
 /* information section */
 
+    /* info-intro */
+
+.information {
+    display: flex;
+    background-color: whitesmoke;
+    gap: 24px;
+}
+
 .info-main {
     display: flex;
     flex-direction: column;
-    background-color: whitesmoke;
+    /* background-color: red; */
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left:24px;
     gap: 24px;
+    width: 60%;
 }
 
 .info-intro {
     display: flex;
     flex-direction: column;
-    width: 60%;
     gap: 32px;
 }
 
@@ -109,3 +117,7 @@ ul {
     font-weight: bold;
 
 }
+
+    /* info-article */
+
+.infor-article {display: flex;}
